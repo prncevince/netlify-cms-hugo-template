@@ -1,0 +1,95 @@
+# default "" - hostname & path to the root of the website - e.g. "https://demo.ai/"
+#baseURL = "/Users/vincentclemson/projects/web/static/sites/demo/dev"
+baseURL = "/"
+# default false
+#buildDrafts = false
+# default false
+#buildFuture = false
+# default "$TMPDIR/hugo_cache/" - Does not seem to expand correctly in hugo?
+#cacheDir = "/var/folders/mt/zpprx6x12c31pjs5n_7bmpv40000gn/T/hugo_cache/"
+# Typically set to false
+#canonifyURLs = true
+# default false - empties `publishDir`
+#cleanDestinationDir = false
+# default false - disable automatic live reloading of browser window
+#disableLiveReload = false
+# default false - Emoji emoticons support for page content - see https://www.webpagefx.com/tools/emoji-cheat-sheet/
+#enableEmoji = false
+# defaults date = ["date", "publishDate", "lastmod"], lastmod = [":git", "lastmod", "date", "publishDate"], publishDate = ["publishDate", "date"], expiryDate = ["expiryDate"]
+# [frontmatter]
+#   date = ["date", "publishDate", "lastmod"]
+#   lastmod = [":git", "lastmod", "date", "publishDate"]
+#   publishDate = ["publishDate", "date"]
+#   expiryDate = ["expiryDate"]
+# defualt ""
+#footnoteAnchorPrefix = ""
+# defualt ""
+#footnoteReturnLinkContents = ""
+# Specifies the Google ANlytics ID - ex: "UA-12345678-1" Theme files can pull this ID from Hugo config file
+#googleAnalytics = ""
+# default false - makes hugo ignore the cache directory
+#ignoreCache = false
+# default [] - Specifies files for Hugo to ignore when rendering the website
+#ignoreFiles = []
+# specifies default language code for website - used in header & RSS feed
+languageCode = "en-us"
+# default false - enables logging
+#log = false
+# specifies the log file path - when set, logging is enabled
+#logFile = ""
+# default ? - see https://gohugo.io/content-management/menus/#add-non-content-entries-to-a-menu
+#menu
+# deafult "" - specifies a "content editor" to open new files with `hugo new` ... alias on PATH
+#newContentEditor = ""
+# default 10 - # of entries appearing on paginated page
+#paginate = 10
+# default "page" - defines the "slug" Hugo uses with paginated list pages - render as /page/1/, /page/2/, etc
+#paginatePath = "page"
+# default "" - specifies "permalink(s)" used - by default, permalinks are rendered based on organization in "/content/" -  i.e. "/content/blog/new-site.md" renders with "blog/new-site/" permalink
+#permalinks = ""
+# Default "/public/"
+#publishDir = "/public/"
+# default false - allows using ```language ... ``` syntax instead of default ~~~ for .md files
+#pygmentsCodeFences = true
+# default "" - specified settings for Pygments code highlighting - e.g. with "linenos=inline" line numbers go inside the <pre> tag (instead of creating a table with line numbers and code in separate columns)
+#pygmentsOptions = "linenos = ''"
+#pygmentsOptions = "linenos=true,linenostart=7"
+pygmentsOptions = "linenos=true"
+# default monokai - syntax higlighting for Pygments - see https://help.farbox.com/pygments.html
+#pygmentsStyle = "monokai"
+# default false - to use CSS classes for Pygments code highlighter's formatting (instead of colour codes inserted into HTML directly)
+pygmentsUseClasses = true 
+# default false - tells hugo to render all pages with URLs relative to the websites root, doesn't apply to absolute URLs - see `baseURL`
+#relativeURLs = false
+# default 15 - sets how many items appear in the RSS file - custom RSS feed file in theme folder will ignore setting
+#rssLimit = 15
+# default "" - when set, Hugo generates a default site menu containing all website sections - use this menu name in theme files to access the menu
+#sectionPagesMenu = ""
+# defaults changefreq = "monthly", filename = "sitemap.xml", priority = 0.5 - `priority` species default priority of items in sitemap, `changefreq` default changing frequency, `filename` filename of sitemap
+#[sitemap]
+#  changefreq = "monthly"
+#  filename = "sitemap.xml"
+#  priority = 0.5
+# default "" - sets file system path to the project that Hugo should render - i.e. different than config directory - this allows for creating different projects with the same config
+#source = ""
+# default 70 - With the use of the `.Summary` page variable, Hugo generates summaries of content to use as a short version in summary views
+#summaryLength = 70
+# default "" - specifies theme - must match theme folder's name in `/themes/`
+theme = "ananke"
+# default 10000 (milliseconds) - timeout for generating page contents - for recursive content generation & performance
+#timeout = 10000
+# default "AP" - specifies which title case style the `title` function should use
+#titleCaseStyle = "AP"
+# default "" - defines the website name
+title = "My Demo Site"
+# default false - render files with `*.html` permalink endings  instead of `/`
+#uglyURLs = false
+# default false - echo verbose info to the terminal (warnings & general info on build)
+#verbose = false
+# default false - log verbosely to file set with `logFile`
+#verboseLog = false
+#default true - when server is running with `hugo server` rebuilds site on saved changes
+#watch = true
+#
+[params]
+      custom_css = ["css/nightowl-chroma.css"]

@@ -1,0 +1,9 @@
+#baseURL = "/"
+#languageCode = "en-us"
+#pygmentsOptions = "linenos = ''"
+#pygmentsUseClasses = true 
+#theme = "ananke"
+#title = "My Demo Site"
+#[params]
+#      custom_css = ["css/nightowl-chroma.css"]
+
